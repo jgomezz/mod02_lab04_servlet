@@ -37,12 +37,12 @@ public class RegisterServlet extends HttpServlet {
 		
 		System.out.println(username);
 		
-		//response.getWriter().append("Served at: ").append(request.getContextPath());
-		
+		// Para enviar data al JSP
+		request.setAttribute("mi_data", username);
 		
 		// Enviar como salida la pagina salida-form.html		
 		this.getServletContext()
-			.getRequestDispatcher("/02_register/output-form.html")
+			.getRequestDispatcher("/02_register/output-form.jsp")
 			.forward(request, response);
 		
 		
