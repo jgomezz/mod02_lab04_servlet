@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
  *  http://localhost:8080/mod02_lab04_servlet/HelloServlet
  *
  */
-@WebServlet("/HelloServlet")
+@WebServlet("/HolaServlet")
 public class HelloServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
