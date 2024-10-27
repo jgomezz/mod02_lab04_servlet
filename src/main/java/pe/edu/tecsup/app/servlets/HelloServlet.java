@@ -9,6 +9,10 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * Servlet implementation class HelloServlet
+ *
+ *
+ *  http://localhost:8080/mod02_lab04_servlet/HelloServlet
+ *
  */
 @WebServlet("/HelloServlet")
 public class HelloServlet extends HttpServlet {
